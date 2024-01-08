@@ -13,6 +13,9 @@ section{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+.paraColor{
+    color: #F00;
+}
 /* Header Section Style */
 header{
     margin: 0px 140px;
@@ -30,6 +33,7 @@ header{
 #heading1{
     color: #ffffff;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 #heading2{
     color: #ffffff;
@@ -51,15 +55,13 @@ header{
     text-align: center;
 }
 #holidayDiscountRate{
-    color: #F00;
-    font-size: 88px;;
+    font-size: 88px;
     font-weight: 700;
 }
 #dealsDescription{
-    color: #F00;
     font-weight: 500;
     margin-top: 48px;
-    margin-bottom: 2px;
+    margin-bottom: 16px;
 }
 #catagories{
     color: #070211;
@@ -106,10 +108,100 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 142px 158px;
+    cursor: pointer;
 }
 #partyYearLogo{
     background-image: url('./resources/Group70.png');
     width: 319.83px;
     background-repeat: no-repeat;
     margin: 67.5px 137px 67.5px 40px;
+}
+
+/* Party Details Section */
+#partyDetailsDiv{
+    background: linear-gradient( 180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100% );
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 482px;
+    align-items: center;
+    text-align: center;
+}
+#detaisParty{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+#joinButton{
+    padding: 16px 32px;
+    margin-top: 48px;
+    background-color: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* New best offer 2024 section */
+#newOfferSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newOfferComingSoon{
+    color: #070211;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+#newOfferLeftDescription{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 70px;
+    width: 393px;
+    height: 128px;
+}
+#newOfferTitleLeft{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+#newOfferLogo{
+    width: 463px;
+    height: 463px;
+    border: 15px solid #F00;
+    border-radius: 463px;
+    position: relative;
+}
+#newOfferLogo img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#newOfferRightTitle{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 135px;
+}
+#newOfferRightDescription{
+    color: rgba(7, 2, 17, 0.60);
+    width: 276px;
+    height: 96px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+#newOfferRightDiv{
+    margin-left: 118px;
 }
