@@ -232,27 +232,199 @@ header{
     position: relative;
     width: 1320px; /* width of red rectangular*/
     height: 662px; /* height of model+height of red rectangular */
-    margin-left: 140px;
-    margin-right: 140px;
+    margin: 64px auto 0 auto;
 }
-#redRectangle{
+#redRectangle,#giftbox{
     position: absolute;
     left:0%;
-    top: 80%;
-}
-#giftbox{
-    position: absolute;
-    left: 0%;
-    top: 15%;
+    bottom: 0%;
 }
 #girlModel{
     position: absolute;
     right: 0%;
-    top: 15%;
+    bottom: 229px;
 }
 #discountLogo{
     position: absolute;
     left: 55%;
-    top: 25%;
+    top: 10%;
+}
+/* Protfolio Section */
+#portfolioSection{
+    margin: 0;
+    margin: 120px 260px;
+}
+#portfolioHeading{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+#protfolioTitle{
+    color: #070211;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+#protfolioDescription{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    height: 64px;
+}
+#card1{
+    margin-top: 48px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+#Cardfolio1{
+    background-image: url('./resources/Rectangle\ 3.png');
+    width: 424px;
+    height: 450px;
+    margin-right: 24px;
+}
+#Cardfolio2{
+    background-image: url('./resources/Rectangle\ 4.png');
+    width: 424px;
+    height: 450px;
+    margin-right: 24px;
+}
+#Cardfolio3{
+    background-image: url('./resources/Rectangle\ 5.png');
+    width: 424px;
+    height: 450px;
+}
+#card2{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+#Cardfolio4{
+    background-image: url('./resources/Rectangle\ 6.png');
+    width: 424px;
+    height: 450px;
+    margin-right: 24px;
+}
+#Cardfolio5{
+    background-image: url('./resources/Rectangle\ 7.png');
+    width: 424px;
+    height: 450px;
+    margin-right: 24px;
+}
+#Cardfolio6{
+    background-image: url('./resources/Rectangle\ 8.png');
+    width: 424px;
+    height: 450px;
 }
 
+.cards:hover{
+    border-radius: 50px;
+    box-shadow: 5px 2px 0.9rem #F00;
+    box-sizing: border-box;
+}
+
+/* Subscribe Newsletter Section */
+#subscribeNewsletter{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 616px;
+    align-items: center;
+    text-align: center;
+}
+#newsletterTitle{
+    margin-top: 40px;
+    color: #070211;
+    font-size: 48px;
+}
+#newsLetterDescription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    height: 64px;
+    margin-top: 22px;
+}
+
+#inputdiv {
+    position: relative;
+    margin-top: 48px;
+}
+
+#input {
+    position: absolute;
+    left:124px;
+    right:124px;
+}
+input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 477px 25px 30px;
+}
+#buttonDiv {
+    position: relative;
+    margin-top: 48px;
+}
+#buttonDiv{
+    position: relative;
+    margin-top: 49px;
+}
+#button{
+    margin-left: 444px;
+}
+button{
+    width: 210px;
+    height: 74px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    background-color: #F00;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    background: #070211;
+    color: #FFF;
+    width: 100%;
+    height: 609px;
+}
+#footerdiv1{
+
+}
+#street{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 1085px 50px 140px;
+    width: 375px;
+    height: 80px;
+}
+hr{
+    margin: 0 140px;
+    width: 1320px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+}
