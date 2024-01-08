@@ -6,11 +6,11 @@ section{
     margin: 120px 140px;
 }
 .font_Merriweather{
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather;
     font-weight: 900;
 }
 .font_Inter{
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-weight: 500;
 }
 .paraColor{
@@ -205,3 +205,54 @@ header{
 #newOfferRightDiv{
     margin-left: 118px;
 }
+
+/* Holidays sale Section */
+#HolidaySaleSection{
+    text-align: center;
+}
+#subHeading{
+    color: #070211;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+#saleTitle{
+    color: #070211;
+    font-size: 72px;
+    margin-bottom: 28px;
+}
+#saleDescription{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    align-items: center;
+    margin: 0 266px;
+}
+#SalesLogoDesign{
+    position: relative;
+    width: 1320px; /* width of red rectangular*/
+    height: 662px; /* height of model+height of red rectangular */
+    margin-left: 140px;
+    margin-right: 140px;
+}
+#redRectangle{
+    position: absolute;
+    left:0%;
+    top: 80%;
+}
+#giftbox{
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+#girlModel{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+}
+#discountLogo{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+
